@@ -82,13 +82,7 @@ your-project/
 5. **Prepare the `.env` File**
    - Create a `.env` file in the project root (see details below).
 
-6. **Create Static Files**
-   - Create a `public` folder with:
-     - `styles.css` (basic styling, example provided below).
-     - `script.js` (copy the provided client-side JS).
-   - Create a `views` folder with `dashboard.ejs` (copy the provided EJS template).
-
-7. **Run the Application**
+6. **Run the Application**
    - Start the server:
      ```bash
      node server.js
@@ -105,20 +99,20 @@ The `.env` file stores environment variables required for the application. Below
 PORT=3000                    # Port for the Express server
 
 # Authentication
-ADMIN_USER=admin            # Username for basic auth
-ADMIN_PASS=secret           # Password for basic auth
+ADMIN_USER=admin                   # Username for basic auth
+ADMIN_PASS=securepassword          # Password for basic auth
 
 # PostgreSQL Database
-DB_HOST=localhost           # Database host
-DB_PORT=5433               # Database port
-DB_USER=postgres           # Database username
-DB_PASSWORD=yourpassword    # Database password
-DB_NAME=yourdbname         # Database name
+DB_HOST=localhost              # Database host
+DB_PORT=5433                   # Database port
+DB_USER=your-username          # Database username
+DB_PASSWORD=your-password      # Database password
+DB_NAME=your-database-name     # Database name
 
 # IBM Cloud Object Storage (COS)
-COS_ENDPOINT=s3.us-south.cloud-object-storage.appdomain.cloud  # COS endpoint URL
+COS_ENDPOINT=your-endpoint                                     # COS endpoint URL
 COS_API_KEY=your-api-key                                       # COS API key
-COS_SERVICE_INSTANCE_ID=crn:v1:bluemix:public:cloud-object-storage:global:a/...  # COS service instance ID
+COS_SERVICE_INSTANCE_ID=your-service-instant-id                # COS service instance ID
 COS_BUCKET_NAME=your-bucket-name                               # COS bucket name
 
 # Email Notification (Gmail example)
