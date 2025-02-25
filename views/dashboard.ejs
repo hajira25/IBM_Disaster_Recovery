@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Database Backup Dashboard</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Database Recovery Dashboard</h1>
+    </header>
+    
+    <section class="controls">
+      <form action="/backup" method="POST">
+        <button type="submit" class="btn btn-primary">Create New Backup</button>
+      </form>
+      <p class="schedule">Auto-Backup Schedule: <span><%= autoBackupSchedule %></span></p>
+    </section>
+
+    <section class="backups">
+      <h2>Available Backups</h2>
+      <% if (backups.length === 0) { %>
+        <p class="no-data">No backups available.</p>
+      <% } else { %>
+        <ul class="backup-list">
+          <% backups.forEach(backup => { %>
+            <li class="backup-item">
+              <span class="backup-name"><%= backup %></span>
+              <div class="actions">
+                <form action="/restore/<%= backup %>" method="POST" style="display:inline;">
+                  <button type="submit" class="btn btn-restore" onclick="return confirm('Are you sure? This will overwrite the current database.');">Restore</button>
+                </form>
+                <form action="/disaster-recovery/<%= backup %>" method="POST" style="display:inline;">
+                  <button type="submit" class="btn btn-recovery" onclick="return confirm('This will create a temporary database for recovery. Proceed?');">Disaster Recovery</button>
+                </form>
+                <a href="/download/<%= backup %>">
+                  <button type="button" class="btn btn-download">Download</button>
+                </a>
+                <form action="/delete/<%= backup %>" method="POST" style="display:inline;">
+                  <button type="submit" class="btn btn-delete" onclick="return confirm('Are you sure you want to delete this backup?');">Delete</button>
+                </form>
+              </div>
+            </li>
+          <% }); %>
+        </ul>
+      <% } %>
+    </section>
+
+    <section class="logs">
+      <h2>Recent Logs</h2>
+      <div class="filter">
+        <input type="text" id="logFilter" placeholder="Filter logs..." onkeyup="filterLogs()">
+      </div>
+      <div class="log-container" id="logContainer">
+        <% logs.forEach(log => { %>
+          <p class="log-entry"><%= log %></p>
+        <% }); %>
+      </div>
+    </section>
+
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+      <p id="progress-text">Processing...</p>
+    </div>
+  </div>
+  
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>

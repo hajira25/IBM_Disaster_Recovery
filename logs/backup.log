@@ -1,0 +1,219 @@
+[2025-02-25T01:36:03.686Z] Starting Backup & Restore Dashboard...
+[2025-02-25T01:36:03.712Z] Server running on port 3000
+[2025-02-25T01:36:08.319Z] Authentication failed
+[2025-02-25T01:36:19.656Z] Authentication failed
+[2025-02-25T01:36:38.002Z] Authentication successful for user: admin
+[2025-02-25T01:36:38.006Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T01:36:39.659Z] Found 2 backups
+[2025-02-25T01:36:39.821Z] Client connected for real-time updates
+[2025-02-25T01:36:39.910Z] Authentication successful for user: admin
+[2025-02-25T01:36:59.118Z] Authentication successful for user: admin
+[2025-02-25T01:36:59.119Z] Starting backup process: backup-2025-02-25T01-36-59.119Z.sql
+[2025-02-25T01:37:11.114Z] Backup file created: c:\Users\moham\Desktop\pg-cos-backup\temp\backup-2025-02-25T01-36-59.119Z.sql, uploading to IBM COS...
+[2025-02-25T01:46:19.033Z] Backup uploaded: backup-2025-02-25T01-36-59.119Z.sql
+[2025-02-25T01:46:19.141Z] Temporary file deleted: c:\Users\moham\Desktop\pg-cos-backup\temp\backup-2025-02-25T01-36-59.119Z.sql
+[2025-02-25T01:46:19.163Z] Authentication successful for user: admin
+[2025-02-25T01:46:19.164Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T01:46:19.537Z] Found 3 backups
+[2025-02-25T01:46:19.608Z] Client connected for real-time updates
+[2025-02-25T01:49:13.100Z] Starting Backup & Restore Dashboard...
+[2025-02-25T01:49:13.111Z] Server running on port 3000
+[2025-02-25T01:49:17.655Z] Authentication successful for user: admin
+[2025-02-25T01:49:17.656Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T01:49:18.076Z] Client connected for real-time updates
+[2025-02-25T01:49:19.049Z] Found 3 backups
+[2025-02-25T01:49:19.137Z] Client connected for real-time updates
+[2025-02-25T02:02:31.567Z] Authentication successful for user: admin
+[2025-02-25T02:02:31.579Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:02:32.483Z] Found 3 backups
+[2025-02-25T02:02:32.617Z] Client connected for real-time updates
+[2025-02-25T02:04:52.766Z] Authentication successful for user: admin
+[2025-02-25T02:04:52.770Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:04:53.531Z] Found 3 backups
+[2025-02-25T02:04:53.671Z] Client connected for real-time updates
+[2025-02-25T02:07:19.146Z] Authentication successful for user: admin
+[2025-02-25T02:07:19.147Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:07:19.899Z] Found 3 backups
+[2025-02-25T02:07:19.975Z] Client connected for real-time updates
+[2025-02-25T02:11:24.766Z] Starting Backup & Restore Dashboard...
+[2025-02-25T02:11:24.777Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T02:11:24.780Z] Server running on port 3000
+[2025-02-25T02:11:24.973Z] Client connected for real-time updates
+[2025-02-25T02:11:29.237Z] Authentication successful for user: admin
+[2025-02-25T02:11:29.241Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:11:30.585Z] Found 3 backups
+[2025-02-25T02:11:30.733Z] Client connected for real-time updates
+[2025-02-25T02:11:35.657Z] Authentication successful for user: admin
+[2025-02-25T02:11:35.660Z] Starting backup process: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T02:11:45.382Z] Backup file created: c:\Users\moham\Desktop\pg-cos-backup\temp\backup-2025-02-25T02-11-35.660Z.sql, uploading to IBM COS...
+[2025-02-25T02:21:19.284Z] Backup uploaded: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T02:21:19.421Z] Temporary file deleted: c:\Users\moham\Desktop\pg-cos-backup\temp\backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T02:21:19.437Z] Authentication successful for user: admin
+[2025-02-25T02:21:19.438Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:21:19.855Z] Found 4 backups
+[2025-02-25T02:21:19.954Z] Client connected for real-time updates
+[2025-02-25T02:44:09.603Z] Client connected for real-time updates
+[2025-02-25T02:49:36.818Z] Client connected for real-time updates
+[2025-02-25T02:49:50.775Z] Authentication successful for user: admin
+[2025-02-25T02:49:50.793Z] Downloading backup: backup-2025-02-24T16-11-07.796Z.sql
+[2025-02-25T02:52:27.443Z] Authentication successful for user: admin
+[2025-02-25T02:52:27.445Z] Deleting backup: backup-2025-02-24T16-11-07.796Z.sql
+[2025-02-25T02:52:29.670Z] Backup deleted successfully: backup-2025-02-24T16-11-07.796Z.sql
+[2025-02-25T02:52:29.723Z] Authentication successful for user: admin
+[2025-02-25T02:52:29.725Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:52:30.395Z] Found 3 backups
+[2025-02-25T02:52:30.469Z] Client connected for real-time updates
+[2025-02-25T02:52:31.026Z] Email notification failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-aeda8574dbasm329702a12.42 - gsmtp
+[2025-02-25T02:52:34.158Z] Authentication successful for user: admin
+[2025-02-25T02:52:34.161Z] Deleting backup: backup-2025-02-25T01-15-47.618Z.sql
+[2025-02-25T02:52:35.013Z] Backup deleted successfully: backup-2025-02-25T01-15-47.618Z.sql
+[2025-02-25T02:52:35.022Z] Authentication successful for user: admin
+[2025-02-25T02:52:35.023Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:52:35.523Z] Found 2 backups
+[2025-02-25T02:52:35.600Z] Client connected for real-time updates
+[2025-02-25T02:52:36.151Z] Email notification failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2fe6a3f21b7sm388897a91.27 - gsmtp
+[2025-02-25T02:52:38.367Z] Authentication successful for user: admin
+[2025-02-25T02:52:38.369Z] Deleting backup: backup-2025-02-25T01-36-59.119Z.sql
+[2025-02-25T02:52:38.912Z] Backup deleted successfully: backup-2025-02-25T01-36-59.119Z.sql
+[2025-02-25T02:52:38.922Z] Authentication successful for user: admin
+[2025-02-25T02:52:38.923Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T02:52:40.046Z] Found 1 backups
+[2025-02-25T02:52:40.088Z] Email notification failed: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-7347a81ef3asm367675b3a.151 - gsmtp
+[2025-02-25T02:52:40.121Z] Client connected for real-time updates
+[2025-02-25T03:38:10.548Z] Starting Backup & Restore Dashboard...
+[2025-02-25T03:38:10.565Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T03:38:10.570Z] Server running on port 3000
+[2025-02-25T03:38:22.001Z] Authentication failed
+[2025-02-25T03:38:38.227Z] Starting Backup & Restore Dashboard...
+[2025-02-25T03:38:38.241Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T03:38:38.245Z] Server running on port 3000
+[2025-02-25T03:38:57.689Z] Authentication successful for user: admin
+[2025-02-25T03:38:57.691Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T03:38:59.644Z] Found 1 backups
+[2025-02-25T03:38:59.788Z] Client connected for real-time updates
+[2025-02-25T03:38:59.802Z] Authentication successful for user: admin
+[2025-02-25T03:39:10.406Z] Authentication successful for user: admin
+[2025-02-25T03:39:10.407Z] Starting restore process: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T03:50:05.517Z] Authentication successful for user: admin
+[2025-02-25T03:50:05.518Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T03:50:06.551Z] Found 1 backups
+[2025-02-25T03:50:06.621Z] Client connected for real-time updates
+[2025-02-25T03:50:12.121Z] Authentication successful for user: admin
+[2025-02-25T03:50:12.122Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T03:50:12.996Z] Found 1 backups
+[2025-02-25T03:50:13.103Z] Client connected for real-time updates
+[2025-02-25T03:52:32.184Z] Starting Backup & Restore Dashboard...
+[2025-02-25T03:52:32.209Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T03:52:32.216Z] Server running on port 3000
+[2025-02-25T03:52:39.780Z] Authentication successful for user: admin
+[2025-02-25T03:52:39.781Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T03:52:41.913Z] Found 1 backups
+[2025-02-25T03:52:42.044Z] Client connected for real-time updates
+[2025-02-25T03:52:45.288Z] Authentication successful for user: admin
+[2025-02-25T03:52:45.290Z] Starting restore process: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T04:11:37.953Z] Backup file downloaded: backup-2025-02-25T02-11-35.660Z.sql, restoring database...
+[2025-02-25T04:12:51.580Z] Database restored successfully from: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T04:12:52.032Z] Temporary file deleted: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T04:12:52.061Z] Authentication successful for user: admin
+[2025-02-25T04:12:52.064Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:12:53.369Z] Found 1 backups
+[2025-02-25T04:12:53.534Z] Client connected for real-time updates
+[2025-02-25T04:12:55.376Z] Email notification sent successfully
+[2025-02-25T04:16:53.388Z] Authentication successful for user: admin
+[2025-02-25T04:16:53.390Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:16:54.319Z] Found 1 backups
+[2025-02-25T04:16:54.470Z] Client connected for real-time updates
+[2025-02-25T04:17:17.236Z] Authentication successful for user: admin
+[2025-02-25T04:17:17.238Z] Starting backup process: backup-2025-02-25T04-17-17.238Z.sql
+[2025-02-25T04:17:33.333Z] Backup file created: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T04-17-17.238Z.sql, uploading to IBM COS...
+[2025-02-25T04:22:47.599Z] Authentication successful for user: admin
+[2025-02-25T04:22:47.601Z] Starting backup process: backup-2025-02-25T04-22-47.601Z.sql
+[2025-02-25T04:23:03.141Z] Backup file created: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T04-22-47.601Z.sql, uploading to IBM COS...
+[2025-02-25T04:24:13.917Z] Authentication successful for user: admin
+[2025-02-25T04:24:13.922Z] Starting backup process: backup-2025-02-25T04-24-13.922Z.sql
+[2025-02-25T04:24:20.372Z] Authentication successful for user: admin
+[2025-02-25T04:24:20.373Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:24:21.178Z] Found 1 backups
+[2025-02-25T04:24:21.341Z] Client connected for real-time updates
+[2025-02-25T04:24:32.894Z] Backup file created: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T04-24-13.922Z.sql, uploading to IBM COS...
+[2025-02-25T04:35:47.135Z] Client connected for real-time updates
+[2025-02-25T04:49:07.898Z] Starting Backup & Restore Dashboard...
+[2025-02-25T04:49:07.916Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T04:49:07.922Z] Server running on port 3000
+[2025-02-25T04:49:10.361Z] Client connected for real-time updates
+[2025-02-25T04:49:22.047Z] Authentication successful for user: admin
+[2025-02-25T04:49:22.051Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:49:23.332Z] Found 1 backups
+[2025-02-25T04:49:23.430Z] Client connected for real-time updates
+[2025-02-25T04:49:32.236Z] Authentication successful for user: admin
+[2025-02-25T04:49:32.255Z] Starting backup process: backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:49:32.758Z] Backup file created: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T04-49-32.255Z.sql, uploading to IBM COS...
+[2025-02-25T04:49:33.585Z] Backup uploaded: backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:49:33.590Z] Temporary file deleted: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:49:33.617Z] Authentication successful for user: admin
+[2025-02-25T04:49:33.619Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:49:34.226Z] Found 2 backups
+[2025-02-25T04:49:34.295Z] Client connected for real-time updates
+[2025-02-25T04:50:13.708Z] Authentication successful for user: admin
+[2025-02-25T04:50:13.711Z] Starting restore process: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T04:50:39.628Z] Starting Backup & Restore Dashboard...
+[2025-02-25T04:50:39.645Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T04:50:39.650Z] Server running on port 3000
+[2025-02-25T04:50:47.370Z] Authentication successful for user: admin
+[2025-02-25T04:50:47.375Z] Starting restore process: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T04:50:55.947Z] Authentication successful for user: admin
+[2025-02-25T04:50:55.949Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:50:56.469Z] Found 2 backups
+[2025-02-25T04:50:56.713Z] Client connected for real-time updates
+[2025-02-25T04:51:44.091Z] Starting Backup & Restore Dashboard...
+[2025-02-25T04:51:44.106Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T04:51:44.111Z] Server running on port 3000
+[2025-02-25T04:51:51.676Z] Authentication successful for user: admin
+[2025-02-25T04:51:51.678Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:51:53.115Z] Found 2 backups
+[2025-02-25T04:51:53.240Z] Client connected for real-time updates
+[2025-02-25T04:53:11.790Z] Authentication successful for user: admin
+[2025-02-25T04:53:11.792Z] Starting restore process: backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:53:13.073Z] Backup file downloaded: backup-2025-02-25T04-49-32.255Z.sql, restoring database...
+[2025-02-25T04:53:13.243Z] Database restored successfully from: backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:53:13.252Z] Temporary file deleted: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:53:13.267Z] Authentication successful for user: admin
+[2025-02-25T04:53:13.268Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:53:13.737Z] Found 2 backups
+[2025-02-25T04:53:13.776Z] Client connected for real-time updates
+[2025-02-25T04:53:16.570Z] Email notification sent successfully
+[2025-02-25T04:53:55.402Z] Authentication successful for user: admin
+[2025-02-25T04:53:55.404Z] Starting disaster recovery with temporary database: recovery_1740459235404
+[2025-02-25T04:53:55.831Z] Temporary database created: recovery_1740459235404
+[2025-02-25T04:54:50.847Z] Starting Backup & Restore Dashboard...
+[2025-02-25T04:54:50.862Z] Auto-backup scheduled with cron expression: 0 */5 * * *
+[2025-02-25T04:54:50.868Z] Server running on port 3000
+[2025-02-25T04:54:51.895Z] Authentication successful for user: admin
+[2025-02-25T04:54:51.896Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:54:52.958Z] Found 2 backups
+[2025-02-25T04:54:53.202Z] Client connected for real-time updates
+[2025-02-25T04:55:07.450Z] Authentication successful for user: admin
+[2025-02-25T04:55:07.453Z] Deleting backup: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T04:55:08.190Z] Backup deleted successfully: backup-2025-02-25T02-11-35.660Z.sql
+[2025-02-25T04:55:08.210Z] Authentication successful for user: admin
+[2025-02-25T04:55:08.211Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:55:08.734Z] Found 1 backups
+[2025-02-25T04:55:08.822Z] Client connected for real-time updates
+[2025-02-25T04:55:11.676Z] Authentication successful for user: admin
+[2025-02-25T04:55:11.678Z] Downloading backup: backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:55:11.799Z] Email notification sent successfully
+[2025-02-25T04:55:12.359Z] Backup downloaded successfully: backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:56:24.658Z] Authentication successful for user: admin
+[2025-02-25T04:56:24.659Z] Starting disaster recovery with temporary database: recovery_1740459384659
+[2025-02-25T04:56:25.040Z] Temporary database created: recovery_1740459384659
+[2025-02-25T04:56:26.122Z] Backup downloaded: backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:56:26.249Z] Temporary database restored: recovery_1740459384659
+[2025-02-25T04:56:26.252Z] Temporary file deleted: C:\Users\User\OneDrive\Desktop\pg-cos-backup\temp\backup-2025-02-25T04-49-32.255Z.sql
+[2025-02-25T04:56:26.265Z] Authentication successful for user: admin
+[2025-02-25T04:56:26.266Z] Fetching backup list from IBM Cloud Storage...
+[2025-02-25T04:56:26.802Z] Found 1 backups
+[2025-02-25T04:56:26.834Z] Client connected for real-time updates
+[2025-02-25T04:56:29.332Z] Email notification sent successfully
